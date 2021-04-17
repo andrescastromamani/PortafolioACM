@@ -24,7 +24,7 @@
     :root{
         --big-font-size: 3.5rem;
         --h2-font-size: 2rem;
-        --normal-font_size: 1rem;
+        --normal-font-size: 1rem;
     }   
 }
 
@@ -44,4 +44,59 @@
     --z-normal: 1;
     --z-tooltip: 10;
     --z-fixed: 100;
+}
+
+/*Base*/
+*,::before,::after{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: var(--header-height);
+    font-family: var(--font-body);
+    font-size: var(--normal-font-size);
+    color: var(--secondary-color);
+}
+h1,h2,p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*=====Class CSS=====*/
+.section-title{
+    position: relative;
+    font-size: var(--h2-font-size);
+    color: var(--primary-color);
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-4);
+    text-align: center;
+}
+.section-title::after{
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: var(--primary-color);
+}
+.section{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
