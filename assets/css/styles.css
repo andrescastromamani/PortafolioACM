@@ -54,7 +54,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    margin: var(--header-height);
+    margin: 0;
     font-family: var(--font-body);
     font-size: var(--normal-font-size);
     color: var(--secondary-color);
@@ -97,7 +97,7 @@ img{
     background-color: var(--primary-color);
 }
 .section{
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
@@ -191,11 +191,12 @@ img{
     row-gap: 1rem;
 }
 .home-data{
+    margin-top: var(--mb-4);
     align-self: center;
 }
 .home-title{
     font-size: var(--big-font-size);
-    margin-bottom: var(--mb-5);
+    margin-bottom: var(--mb-4);
 }
 .home-title-color{
     color: var(--primary-color);
