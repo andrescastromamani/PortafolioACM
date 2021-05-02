@@ -77,11 +77,14 @@ img{
 }
 
 /*=====Class CSS=====*/
+.section{
+    margin-top: 2rem;
+}
 .section-title{
     position: relative;
     font-size: var(--h2-font-size);
     color: var(--primary-color);
-    margin-top: var(--mb-2);
+    margin-top: var(--mb-4);
     margin-bottom: var(--mb-4);
     text-align: center;
 }
@@ -95,10 +98,6 @@ img{
     margin: auto;
     top: 2rem;
     background-color: var(--primary-color);
-}
-.section{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 
 /*Layout*/
@@ -221,8 +220,8 @@ img{
 }
 .home-img{
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 10px;
+    bottom: 10px;
     width: 300px;
 }
 /*BUTTONS*/
@@ -239,11 +238,11 @@ img{
 }
 /*ABOUT*/
 .about-container{
-    row-gap: 2rem;
+    row-gap: 1rem;
     text-align: center;
 }
 .about-subtitle{
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-1);
 }
 .about-img{
     justify-self: center;
