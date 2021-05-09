@@ -232,6 +232,7 @@ img{
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: .5rem;
+    margin-bottom: 2rem;
 }
 .button:hover{
     box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
@@ -354,10 +355,6 @@ img{
 }
 .footer-title{
     font-size: 2rem;
-    margin-bottom: var(--mb-4);
-}
-.footer-social{
-    margin-bottom: var(--mb-4);
 }
 .footer-icon{
     font-size: 1.5rem;
