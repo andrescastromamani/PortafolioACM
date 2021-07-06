@@ -9,8 +9,11 @@
 
 /*Colors*/
 :root{
-    --primary-color: #4070fa;
-    --secondary-color: #032431;
+    --primary-color: #001c44;
+    --secondary-color: #0C5776;
+    --third-color: #2C99AE;
+    --fourth-color: #C1FBFF;
+    --fifth-color: #F8DAD0;
 }
 
 /*Font and Tipografy*/
@@ -121,8 +124,8 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #fff;
     box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
+    background-color: var(--primary-color);
 }
 
 /*Nav*/
@@ -132,6 +135,7 @@ img{
     justify-content: space-between;
     align-items: center;
     font-weight: var(--font-semi);
+    
 }
 @media (max-width: 768px) {
     .nav-menu{
@@ -141,12 +145,13 @@ img{
         width: 80%;
         height: 100%;
         padding: 2rem;
-        background-color: var(--secondary-color);
+        background-color: var(--primary-color);
         transition: .5s;
     }
 }
 .nav-item{
     margin-bottom: var(--mb-4);
+    color: #fff;
 }
 .nav-link{
     position: relative;
