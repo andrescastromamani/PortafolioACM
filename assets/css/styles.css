@@ -170,10 +170,10 @@ img{
     background-color: var(--primary-color);
 }
 .nav-logo{
-    color: var(--secondary-color);
+    color: #fff;
 }
 .nav-toggle{
-    color: var(--secondary-color);
+    color: #fff;
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -394,9 +394,6 @@ img{
     }
     .nav-toggle{
         display: none;
-    }
-    .nav-link{
-        color: var(--secondary-color);
     }
     .home{
         height: 100vh;
