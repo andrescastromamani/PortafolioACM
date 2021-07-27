@@ -428,9 +428,7 @@ img{
         grid-template-rows: repeat(2,1fr);
         column-gap: 2rem;
     }
-    .contact{
-        width: 360px;
-    }
+
     .contact-container{
         justify-items: center;
     }
