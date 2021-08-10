@@ -10,4 +10,7 @@
     --fifth-color: #F8DAD0;
 }
 
-/*Home Section*/
+.section{
+    height: 100vh;
+    padding-top: 4rem;
+}
