@@ -14,3 +14,16 @@
     height: 100vh;
     padding-top: 4rem;
 }
+
+/*Section Home*/
+.section-home{
+    display: flex;
+    align-items: center;
+}
+.home-image{
+    max-width: 100%;
+}
+.home-col{
+    display: flex;
+    align-items: center;
+}
