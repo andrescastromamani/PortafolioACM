@@ -16,14 +16,14 @@
 }
 
 /*Section Home*/
-.section-home{
+.section-home, .section-about{
     display: flex;
     align-items: center;
 }
 .home-image{
     max-width: 100%;
 }
-.home-col{
+.home-col, .about-col{
     display: flex;
     align-items: center;
 }
