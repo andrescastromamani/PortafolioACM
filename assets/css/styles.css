@@ -16,7 +16,7 @@
 }
 
 /*Section Home*/
-.section-home, .section-about, .section-skills{
+.section-home, .section-about, .section-skills,.section-work{
     display: flex;
     align-items: center;
 }
